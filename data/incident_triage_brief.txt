@@ -1,0 +1,16 @@
+SCENARIO INC-2026-104 — SUSPECTED ACCOUNT MISUSE
+Organisation: Northstar Community Services (fictional)
+Detection window: 19 October 2026, 08:00–10:30 UTC
+Systems: VPN-GW-01, ADMIN-CONSOLE, WKSTN-008
+Known facts:
+- One account has four consecutive failed VPN logins followed by a success from a documentation-range IP.
+- A user denied two unexpected MFA prompts.
+- An admin privilege event appears without a change-ticket reference, while a nearby event has an approved ticket.
+- Endpoint alerts are synthetic and designed to require correlation, not automatic conclusions.
+
+Analyst tasks:
+1. Build a concise timeline using timestamps and event IDs.
+2. Identify which events are likely benign, suspicious, or need more evidence.
+3. Explain confidence and what additional evidence would be requested.
+4. Recommend containment and communication steps that do not destroy evidence.
+5. Do not state that an account is compromised unless the evidence supports it.

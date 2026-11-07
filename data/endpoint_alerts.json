@@ -1,0 +1,54 @@
+{
+  "dataset_name": "RedKross synthetic endpoint alerts",
+  "notice": "Fictional training data. No real endpoints or users.",
+  "alerts": [
+    {
+      "alert_id": "EDR-1001",
+      "timestamp_utc": "2026-10-19T08:18:02Z",
+      "host": "WKSTN-014",
+      "user": "j.lee",
+      "severity": "low",
+      "rule": "Office child process unusual",
+      "process": "WINWORD.EXE -> powershell.exe",
+      "action": "blocked",
+      "ticket": "INC-501",
+      "analyst_note": "Training simulation; inspect context, do not assume malicious."
+    },
+    {
+      "alert_id": "EDR-1002",
+      "timestamp_utc": "2026-10-19T08:31:47Z",
+      "host": "WKSTN-008",
+      "user": "t.garcia",
+      "severity": "medium",
+      "rule": "Repeated MFA denial",
+      "process": "browser.exe",
+      "action": "allowed",
+      "ticket": "INC-502",
+      "analyst_note": "Correlates with MFA_DENIED events."
+    },
+    {
+      "alert_id": "EDR-1003",
+      "timestamp_utc": "2026-10-19T09:17:01Z",
+      "host": "VPN-GW-01",
+      "user": "unknown",
+      "severity": "medium",
+      "rule": "Repeated authentication failures",
+      "process": "auth-service",
+      "action": "rate_limited",
+      "ticket": "INC-503",
+      "analyst_note": "Correlate source 203.0.113.91 and event count."
+    },
+    {
+      "alert_id": "EDR-1004",
+      "timestamp_utc": "2026-10-19T10:07:02Z",
+      "host": "ADMIN-CONSOLE",
+      "user": "m.patel",
+      "severity": "high",
+      "rule": "Privilege granted without change reference",
+      "process": "admin-api",
+      "action": "logged",
+      "ticket": "INC-504",
+      "analyst_note": "Validate against approved change record before closing."
+    }
+  ]
+}

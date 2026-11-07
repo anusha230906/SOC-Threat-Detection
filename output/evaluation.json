@@ -1,0 +1,23 @@
+{
+  "scenarios_expected_to_alert": 16,
+  "detected": 16,
+  "missed": [],
+  "recall": 1.0,
+  "alerting_findings": 14,
+  "true_positive_findings": 14,
+  "false_positive_findings": [],
+  "precision": 1.0,
+  "quiet_scenarios_that_alerted": [],
+  "known_gaps": [
+    {
+      "scenario": "S-SLOW0",
+      "type": "slow_burn_guessing",
+      "detected": false
+    },
+    {
+      "scenario": "S-SLOW1",
+      "type": "slow_burn_guessing",
+      "detected": false
+    }
+  ]
+}

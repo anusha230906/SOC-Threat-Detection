@@ -1,0 +1,340 @@
+{
+  "seed": 42,
+  "hours": 8,
+  "scenarios": [
+    {
+      "scenario_id": "S-BASE",
+      "type": "baseline",
+      "expected_rules": [],
+      "malicious": false,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0001",
+        "AUTH-S0002",
+        "AUTH-S0003",
+        "AUTH-S0005",
+        "AUTH-S0006",
+        "AUTH-S0008",
+        "AUTH-S0009",
+        "AUTH-S0010",
+        "AUTH-S0011",
+        "AUTH-S0012",
+        "AUTH-S0013",
+        "AUTH-S0014",
+        "AUTH-S0015",
+        "AUTH-S0016",
+        "AUTH-S0017",
+        "AUTH-S0021",
+        "AUTH-S0026",
+        "AUTH-S0028",
+        "AUTH-S0033",
+        "AUTH-S0038",
+        "AUTH-S0048",
+        "AUTH-S0049",
+        "AUTH-S0054",
+        "AUTH-S0068",
+        "AUTH-S0077",
+        "AUTH-S0078",
+        "AUTH-S0092",
+        "AUTH-S0098",
+        "AUTH-S0102",
+        "AUTH-S0110",
+        "AUTH-S0111"
+      ]
+    },
+    {
+      "scenario_id": "S-TYPO",
+      "type": "typo_benign",
+      "expected_rules": [
+        "R05"
+      ],
+      "malicious": false,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0004",
+        "AUTH-S0007",
+        "AUTH-S0025",
+        "AUTH-S0027",
+        "AUTH-S0036",
+        "AUTH-S0037",
+        "AUTH-S0050",
+        "AUTH-S0051"
+      ]
+    },
+    {
+      "scenario_id": "S-TICKET",
+      "type": "ticketed_privilege",
+      "expected_rules": [
+        "R04b"
+      ],
+      "malicious": false,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0053",
+        "AUTH-S0093",
+        "AUTH-S0108"
+      ]
+    },
+    {
+      "scenario_id": "S-NEAR0",
+      "type": "near_miss_3_failures",
+      "expected_rules": [],
+      "malicious": false,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0045",
+        "AUTH-S0046",
+        "AUTH-S0047"
+      ]
+    },
+    {
+      "scenario_id": "S-NEAR1",
+      "type": "near_miss_3_failures",
+      "expected_rules": [],
+      "malicious": false,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0097",
+        "AUTH-S0099",
+        "AUTH-S0100"
+      ]
+    },
+    {
+      "scenario_id": "S-TYPO20",
+      "type": "typo_twice_benign",
+      "expected_rules": [
+        "R05"
+      ],
+      "malicious": false,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0084",
+        "AUTH-S0085",
+        "AUTH-S0087"
+      ]
+    },
+    {
+      "scenario_id": "S-TYPO21",
+      "type": "typo_twice_benign",
+      "expected_rules": [
+        "R05"
+      ],
+      "malicious": false,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0065",
+        "AUTH-S0066",
+        "AUTH-S0067"
+      ]
+    },
+    {
+      "scenario_id": "S-SLOW0",
+      "type": "slow_burn_guessing",
+      "expected_rules": [],
+      "malicious": true,
+      "known_gap": true,
+      "event_ids": [
+        "AUTH-S0094",
+        "AUTH-S0095",
+        "AUTH-S0096",
+        "AUTH-S0101",
+        "AUTH-S0103"
+      ]
+    },
+    {
+      "scenario_id": "S-SLOW1",
+      "type": "slow_burn_guessing",
+      "expected_rules": [],
+      "malicious": true,
+      "known_gap": true,
+      "event_ids": [
+        "AUTH-S0079",
+        "AUTH-S0080",
+        "AUTH-S0081",
+        "AUTH-S0082",
+        "AUTH-S0083"
+      ]
+    },
+    {
+      "scenario_id": "S-BF0",
+      "type": "brute_force",
+      "expected_rules": [
+        "R01"
+      ],
+      "malicious": true,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0029",
+        "AUTH-S0030",
+        "AUTH-S0031",
+        "AUTH-S0032",
+        "AUTH-S0034",
+        "AUTH-S0035"
+      ]
+    },
+    {
+      "scenario_id": "S-BF1",
+      "type": "brute_force",
+      "expected_rules": [
+        "R01"
+      ],
+      "malicious": true,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0069",
+        "AUTH-S0070",
+        "AUTH-S0071",
+        "AUTH-S0072",
+        "AUTH-S0073",
+        "AUTH-S0074",
+        "AUTH-S0075",
+        "AUTH-S0076"
+      ]
+    },
+    {
+      "scenario_id": "S-BF2",
+      "type": "brute_force_then_success",
+      "expected_rules": [
+        "R01",
+        "R02"
+      ],
+      "malicious": true,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0018",
+        "AUTH-S0019",
+        "AUTH-S0020",
+        "AUTH-S0022",
+        "AUTH-S0023",
+        "AUTH-S0024"
+      ]
+    },
+    {
+      "scenario_id": "S-BF3",
+      "type": "brute_force_then_success",
+      "expected_rules": [
+        "R01",
+        "R02"
+      ],
+      "malicious": true,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0057",
+        "AUTH-S0058",
+        "AUTH-S0059",
+        "AUTH-S0060",
+        "AUTH-S0061",
+        "AUTH-S0062",
+        "AUTH-S0063",
+        "AUTH-S0064"
+      ]
+    },
+    {
+      "scenario_id": "S-MFA0",
+      "type": "mfa_fatigue",
+      "expected_rules": [
+        "R03"
+      ],
+      "malicious": true,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0104",
+        "AUTH-S0105",
+        "AUTH-S0106",
+        "AUTH-S0107"
+      ]
+    },
+    {
+      "scenario_id": "S-MFA1",
+      "type": "mfa_fatigue",
+      "expected_rules": [
+        "R03"
+      ],
+      "malicious": true,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0055",
+        "AUTH-S0056"
+      ]
+    },
+    {
+      "scenario_id": "S-MFA2",
+      "type": "mfa_fatigue",
+      "expected_rules": [
+        "R03"
+      ],
+      "malicious": true,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0039",
+        "AUTH-S0040",
+        "AUTH-S0041"
+      ]
+    },
+    {
+      "scenario_id": "S-PRIV0",
+      "type": "privilege_without_ticket",
+      "expected_rules": [
+        "R04"
+      ],
+      "malicious": true,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0052"
+      ]
+    },
+    {
+      "scenario_id": "S-PRIV1",
+      "type": "privilege_without_ticket",
+      "expected_rules": [
+        "R04"
+      ],
+      "malicious": true,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0086"
+      ]
+    },
+    {
+      "scenario_id": "S-PRIV2",
+      "type": "privilege_without_ticket",
+      "expected_rules": [
+        "R04"
+      ],
+      "malicious": true,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0109"
+      ]
+    },
+    {
+      "scenario_id": "S-SPRAY0",
+      "type": "unknown_user_spray",
+      "expected_rules": [
+        "R07"
+      ],
+      "malicious": true,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0042",
+        "AUTH-S0043",
+        "AUTH-S0044"
+      ]
+    },
+    {
+      "scenario_id": "S-SPRAY1",
+      "type": "unknown_user_spray",
+      "expected_rules": [
+        "R07"
+      ],
+      "malicious": true,
+      "known_gap": false,
+      "event_ids": [
+        "AUTH-S0088",
+        "AUTH-S0089",
+        "AUTH-S0090",
+        "AUTH-S0091"
+      ]
+    }
+  ]
+}

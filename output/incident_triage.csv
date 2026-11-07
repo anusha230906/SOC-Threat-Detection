@@ -1,0 +1,9 @@
+priority,case_id,entity,classification,severity,confidence,finding_ids,start,end
+P1,CASE-01,a.chen,high_review,high,medium,F-001 F-002,2026-10-19T08:14:03Z,2026-10-19T08:15:01Z
+P1,CASE-02,m.patel,high_review,high,medium,F-006 F-007 F-013,2026-10-19T10:03:41Z,2026-10-19T10:07:02Z
+P2,CASE-03,t.garcia,review,medium,medium,F-011 F-004,2026-10-19T08:31:47Z,2026-10-19T08:36:02Z
+P2,CASE-04,unknown@203.0.113.91,review,medium,low,F-005 F-012,2026-10-19T09:15:55Z,2026-10-19T09:17:01Z
+P3,CASE-05,j.lee,review,low,low,F-010,2026-10-19T08:18:02Z,2026-10-19T08:18:02Z
+P4,CASE-06,svc-backup,likely_benign,info,medium,F-003,2026-10-19T08:20:14Z,2026-10-19T08:20:14Z
+P4,CASE-07,svc-sync,likely_benign,info,medium,F-008,2026-10-19T10:18:03Z,2026-10-19T10:18:03Z
+P4,CASE-08,d.ross,likely_benign,info,medium,F-009,2026-10-19T10:22:16Z,2026-10-19T11:51:08Z

@@ -1,0 +1,25 @@
+timestamp,event_id,source,username,event_type,source_ip,system,details,assessment,alert_ids
+2026-10-19T08:01:12Z,AUTH-0001,Authentication Log,j.lee,login_success,198.51.100.21,workstation-14,normal office login,baseline,
+2026-10-19T08:05:44Z,AUTH-0002,Authentication Log,m.patel,login_success,198.51.100.22,workstation-03,normal office login,baseline,
+2026-10-19T08:14:03Z,AUTH-0003,Authentication Log,a.chen,login_failure,203.0.113.77,vpn-gateway,invalid password,suspicious,F-001
+2026-10-19T08:14:11Z,AUTH-0004,Authentication Log,a.chen,login_failure,203.0.113.77,vpn-gateway,invalid password,suspicious,F-001
+2026-10-19T08:14:18Z,AUTH-0005,Authentication Log,a.chen,login_failure,203.0.113.77,vpn-gateway,invalid password,suspicious,F-001
+2026-10-19T08:14:27Z,AUTH-0006,Authentication Log,a.chen,login_failure,203.0.113.77,vpn-gateway,invalid password,suspicious,F-001
+2026-10-19T08:15:01Z,AUTH-0007,Authentication Log,a.chen,login_success,203.0.113.77,vpn-gateway,success after repeated failures; review required,high_review,F-002
+2026-10-19T08:18:02Z,EDR-1001,Endpoint Alert,j.lee,Office child process unusual,Not available,WKSTN-014,"Process: WINWORD.EXE -> powershell.exe; Action: blocked; Ticket: INC-501; Note: Training simulation; inspect context, do not assume malicious.",review,F-010
+2026-10-19T08:20:14Z,AUTH-0008,Authentication Log,svc-backup,login_success,192.0.2.40,backup-01,scheduled backup job,likely_benign,F-003
+2026-10-19T08:31:47Z,EDR-1002,Endpoint Alert,t.garcia,Repeated MFA denial,Not available,WKSTN-008,Process: browser.exe; Action: allowed; Ticket: INC-502; Note: Correlates with MFA_DENIED events.,review,F-011
+2026-10-19T08:35:29Z,AUTH-0009,Authentication Log,t.garcia,mfa_denied,198.51.100.45,workstation-08,user denied unexpected prompt,review,F-004
+2026-10-19T08:36:02Z,AUTH-0010,Authentication Log,t.garcia,mfa_denied,198.51.100.45,workstation-08,second unexpected prompt,review,F-004
+2026-10-19T09:02:10Z,AUTH-0011,Authentication Log,r.khan,password_reset,198.51.100.28,helpdesk-portal,verified reset,baseline,
+2026-10-19T09:15:55Z,AUTH-0012,Authentication Log,unknown,login_failure,203.0.113.91,vpn-gateway,unknown username,review,F-005
+2026-10-19T09:16:04Z,AUTH-0013,Authentication Log,unknown,login_failure,203.0.113.91,vpn-gateway,unknown username,review,F-005
+2026-10-19T09:16:19Z,AUTH-0014,Authentication Log,unknown,login_failure,203.0.113.91,vpn-gateway,unknown username,review,F-005
+2026-10-19T09:17:01Z,EDR-1003,Endpoint Alert,unknown,Repeated authentication failures,Not available,VPN-GW-01,Process: auth-service; Action: rate_limited; Ticket: INC-503; Note: Correlate source 203.0.113.91 and event count.,review,F-012
+2026-10-19T09:40:12Z,AUTH-0015,Authentication Log,n.wilson,login_success,198.51.100.29,workstation-09,normal office login,baseline,
+2026-10-19T10:03:41Z,AUTH-0016,Authentication Log,m.patel,privilege_granted,198.51.100.22,admin-console,approved change ticket CHG-1042,likely_benign,F-006
+2026-10-19T10:06:12Z,AUTH-0017,Authentication Log,m.patel,privilege_granted,198.51.100.22,admin-console,no change ticket in event; investigate,high_review,F-007
+2026-10-19T10:07:02Z,EDR-1004,Endpoint Alert,m.patel,Privilege granted without change reference,Not available,ADMIN-CONSOLE,Process: admin-api; Action: logged; Ticket: INC-504; Note: Validate against approved change record before closing.,high_review,F-013
+2026-10-19T10:18:03Z,AUTH-0018,Authentication Log,svc-sync,login_success,192.0.2.55,directory-01,expected sync job,likely_benign,F-008
+2026-10-19T10:22:16Z,AUTH-0019,Authentication Log,d.ross,login_failure,198.51.100.36,workstation-22,single typo,likely_benign,F-009
+2026-10-19T11:51:08Z,AUTH-0020,Authentication Log,d.ross,login_success,198.51.100.36,workstation-22,normal login after typo,likely_benign,F-009

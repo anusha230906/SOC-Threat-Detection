@@ -1,0 +1,6 @@
+case_id,input_pattern,expected_class,reason
+SOC-T01,4+ login_failure events for same username and source IP within 2 minutes,suspicious,Repeated failures may indicate guessing; correlate before escalating.
+SOC-T02,mfa_denied twice by same user within 5 minutes,review,Could indicate MFA fatigue or a legitimate mistake; user verification needed.
+SOC-T03,privilege_granted event without change ticket,high_review,Privilege change should be reconciled with an approved change.
+SOC-T04,single login_failure followed by MFA login_success from same workstation,likely_benign,A typo followed by successful authentication can be normal.
+SOC-T05,scheduled svc-backup login from documented internal fixture address,likely_benign,Service identity and timing match the stated scenario.

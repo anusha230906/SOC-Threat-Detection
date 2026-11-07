@@ -1,0 +1,112 @@
+timestamp_utc,event_id,username,event_type,source_ip,target_system,auth_method,notes
+2026-10-20T08:01:46Z,AUTH-S0001,b.osei,login_success,198.51.100.11,workstation-02,MFA,normal office login
+2026-10-20T08:11:51Z,AUTH-S0002,i.okafor,login_success,198.51.100.18,workstation-09,MFA,normal office login
+2026-10-20T08:18:10Z,AUTH-S0003,svc-sync,login_success,192.0.2.55,directory-01,service_token,expected sync job
+2026-10-20T08:18:59Z,AUTH-S0004,m.kovacs,login_failure,198.51.100.22,workstation-13,password,invalid password
+2026-10-20T08:19:29Z,AUTH-S0005,s.lindgren,login_success,198.51.100.28,workstation-19,MFA,normal office login
+2026-10-20T08:20:15Z,AUTH-S0006,svc-backup,login_success,192.0.2.40,backup-01,service_token,scheduled backup job
+2026-10-20T08:20:17Z,AUTH-S0007,m.kovacs,login_success,198.51.100.22,workstation-13,MFA,normal office login
+2026-10-20T08:21:31Z,AUTH-S0008,k.larsen,login_success,198.51.100.20,workstation-11,MFA,normal office login
+2026-10-20T08:26:24Z,AUTH-S0009,g.silva,login_success,198.51.100.16,workstation-07,MFA,normal office login
+2026-10-20T08:43:35Z,AUTH-S0010,c.diaz,login_success,198.51.100.12,workstation-03,MFA,normal office login
+2026-10-20T08:46:43Z,AUTH-S0011,t.mendes,login_success,198.51.100.29,workstation-20,MFA,normal office login
+2026-10-20T08:56:08Z,AUTH-S0012,g.silva,password_reset,198.51.100.28,helpdesk-portal,email_otp,verified reset
+2026-10-20T08:57:12Z,AUTH-S0013,r.singh,login_success,198.51.100.27,workstation-18,MFA,normal office login
+2026-10-20T08:58:47Z,AUTH-S0014,e.moreau,login_success,198.51.100.14,workstation-05,MFA,normal office login
+2026-10-20T09:03:34Z,AUTH-S0015,o.tanaka,login_success,198.51.100.24,workstation-15,MFA,normal office login
+2026-10-20T09:15:57Z,AUTH-S0016,a.novak,login_success,198.51.100.10,workstation-01,MFA,normal office login
+2026-10-20T09:19:01Z,AUTH-S0017,n.dubois,login_success,198.51.100.23,workstation-14,MFA,normal office login
+2026-10-20T09:20:06Z,AUTH-S0018,v.user03,login_failure,203.0.113.12,vpn-gateway,password,invalid password
+2026-10-20T09:20:12Z,AUTH-S0019,v.user03,login_failure,203.0.113.12,vpn-gateway,password,invalid password
+2026-10-20T09:20:26Z,AUTH-S0020,v.user03,login_failure,203.0.113.12,vpn-gateway,password,invalid password
+2026-10-20T09:20:29Z,AUTH-S0021,svc-backup,login_success,192.0.2.40,backup-01,service_token,scheduled backup job
+2026-10-20T09:20:36Z,AUTH-S0022,v.user03,login_failure,203.0.113.12,vpn-gateway,password,invalid password
+2026-10-20T09:20:49Z,AUTH-S0023,v.user03,login_failure,203.0.113.12,vpn-gateway,password,invalid password
+2026-10-20T09:21:17Z,AUTH-S0024,v.user03,login_success,203.0.113.12,vpn-gateway,MFA,success after repeated failures; review required
+2026-10-20T09:31:54Z,AUTH-S0025,f.ito,login_failure,198.51.100.15,workstation-06,password,invalid password
+2026-10-20T09:32:54Z,AUTH-S0026,d.huang,login_success,198.51.100.13,workstation-04,MFA,normal office login
+2026-10-20T09:33:51Z,AUTH-S0027,f.ito,login_success,198.51.100.15,workstation-06,MFA,normal office login
+2026-10-20T09:33:55Z,AUTH-S0028,h.berg,login_success,198.51.100.17,workstation-08,MFA,normal office login
+2026-10-20T09:38:07Z,AUTH-S0029,v.user05,login_failure,203.0.113.10,vpn-gateway,password,invalid password
+2026-10-20T09:38:14Z,AUTH-S0030,v.user05,login_failure,203.0.113.10,vpn-gateway,password,invalid password
+2026-10-20T09:38:26Z,AUTH-S0031,v.user05,login_failure,203.0.113.10,vpn-gateway,password,invalid password
+2026-10-20T09:38:38Z,AUTH-S0032,v.user05,login_failure,203.0.113.10,vpn-gateway,password,invalid password
+2026-10-20T09:38:45Z,AUTH-S0033,l.ahmed,login_success,198.51.100.21,workstation-12,MFA,normal office login
+2026-10-20T09:38:46Z,AUTH-S0034,v.user05,login_failure,203.0.113.10,vpn-gateway,password,invalid password
+2026-10-20T09:38:59Z,AUTH-S0035,v.user05,login_failure,203.0.113.10,vpn-gateway,password,invalid password
+2026-10-20T09:39:37Z,AUTH-S0036,q.rossi,login_failure,198.51.100.26,workstation-17,password,invalid password
+2026-10-20T09:41:27Z,AUTH-S0037,q.rossi,login_success,198.51.100.26,workstation-17,MFA,normal office login
+2026-10-20T09:43:47Z,AUTH-S0038,p.murphy,login_success,198.51.100.25,workstation-16,MFA,normal office login
+2026-10-20T09:46:42Z,AUTH-S0039,v.user13,mfa_denied,198.51.100.122,workstation-42,push,user denied unexpected prompt
+2026-10-20T09:47:48Z,AUTH-S0040,v.user13,mfa_denied,198.51.100.122,workstation-42,push,user denied unexpected prompt
+2026-10-20T09:48:54Z,AUTH-S0041,v.user13,mfa_denied,198.51.100.122,workstation-42,push,user denied unexpected prompt
+2026-10-20T09:57:48Z,AUTH-S0042,unknown,login_failure,203.0.113.90,vpn-gateway,password,unknown username
+2026-10-20T09:57:56Z,AUTH-S0043,unknown,login_failure,203.0.113.90,vpn-gateway,password,unknown username
+2026-10-20T09:58:10Z,AUTH-S0044,unknown,login_failure,203.0.113.90,vpn-gateway,password,unknown username
+2026-10-20T10:16:07Z,AUTH-S0045,v.user21,login_failure,198.51.100.100,vpn-gateway,password,invalid password
+2026-10-20T10:16:27Z,AUTH-S0046,v.user21,login_failure,198.51.100.100,vpn-gateway,password,invalid password
+2026-10-20T10:16:47Z,AUTH-S0047,v.user21,login_failure,198.51.100.100,vpn-gateway,password,invalid password
+2026-10-20T10:18:17Z,AUTH-S0048,svc-sync,login_success,192.0.2.55,directory-01,service_token,expected sync job
+2026-10-20T10:20:24Z,AUTH-S0049,svc-backup,login_success,192.0.2.40,backup-01,service_token,scheduled backup job
+2026-10-20T10:26:25Z,AUTH-S0050,j.reyes,login_failure,198.51.100.19,workstation-10,password,invalid password
+2026-10-20T10:28:21Z,AUTH-S0051,j.reyes,login_success,198.51.100.19,workstation-10,MFA,normal office login
+2026-10-20T10:43:50Z,AUTH-S0052,adm.nair,privilege_granted,198.51.100.70,admin-console,MFA,no change ticket in event; investigate
+2026-10-20T11:11:51Z,AUTH-S0053,adm.zhou,privilege_granted,198.51.100.62,admin-console,MFA,approved change ticket CHG-2002
+2026-10-20T11:20:40Z,AUTH-S0054,svc-backup,login_success,192.0.2.40,backup-01,service_token,scheduled backup job
+2026-10-20T11:26:24Z,AUTH-S0055,v.user22,mfa_denied,198.51.100.121,workstation-41,push,user denied unexpected prompt
+2026-10-20T11:27:11Z,AUTH-S0056,v.user22,mfa_denied,198.51.100.121,workstation-41,push,user denied unexpected prompt
+2026-10-20T11:50:21Z,AUTH-S0057,v.user10,login_failure,203.0.113.13,vpn-gateway,password,invalid password
+2026-10-20T11:50:32Z,AUTH-S0058,v.user10,login_failure,203.0.113.13,vpn-gateway,password,invalid password
+2026-10-20T11:50:44Z,AUTH-S0059,v.user10,login_failure,203.0.113.13,vpn-gateway,password,invalid password
+2026-10-20T11:50:52Z,AUTH-S0060,v.user10,login_failure,203.0.113.13,vpn-gateway,password,invalid password
+2026-10-20T11:51:04Z,AUTH-S0061,v.user10,login_failure,203.0.113.13,vpn-gateway,password,invalid password
+2026-10-20T11:51:08Z,AUTH-S0062,v.user10,login_failure,203.0.113.13,vpn-gateway,password,invalid password
+2026-10-20T11:51:22Z,AUTH-S0063,v.user10,login_failure,203.0.113.13,vpn-gateway,password,invalid password
+2026-10-20T11:51:56Z,AUTH-S0064,v.user10,login_success,203.0.113.13,vpn-gateway,MFA,success after repeated failures; review required
+2026-10-20T11:56:04Z,AUTH-S0065,v.user09,login_failure,198.51.100.111,workstation-30,password,invalid password
+2026-10-20T11:56:29Z,AUTH-S0066,v.user09,login_failure,198.51.100.111,workstation-30,password,invalid password
+2026-10-20T11:57:14Z,AUTH-S0067,v.user09,login_success,198.51.100.111,workstation-30,MFA,normal office login
+2026-10-20T11:59:05Z,AUTH-S0068,i.okafor,password_reset,198.51.100.28,helpdesk-portal,email_otp,verified reset
+2026-10-20T12:14:08Z,AUTH-S0069,v.user23,login_failure,203.0.113.11,vpn-gateway,password,invalid password
+2026-10-20T12:14:17Z,AUTH-S0070,v.user23,login_failure,203.0.113.11,vpn-gateway,password,invalid password
+2026-10-20T12:14:24Z,AUTH-S0071,v.user23,login_failure,203.0.113.11,vpn-gateway,password,invalid password
+2026-10-20T12:14:30Z,AUTH-S0072,v.user23,login_failure,203.0.113.11,vpn-gateway,password,invalid password
+2026-10-20T12:14:42Z,AUTH-S0073,v.user23,login_failure,203.0.113.11,vpn-gateway,password,invalid password
+2026-10-20T12:14:53Z,AUTH-S0074,v.user23,login_failure,203.0.113.11,vpn-gateway,password,invalid password
+2026-10-20T12:14:58Z,AUTH-S0075,v.user23,login_failure,203.0.113.11,vpn-gateway,password,invalid password
+2026-10-20T12:15:02Z,AUTH-S0076,v.user23,login_failure,203.0.113.11,vpn-gateway,password,invalid password
+2026-10-20T12:18:14Z,AUTH-S0077,svc-sync,login_success,192.0.2.55,directory-01,service_token,expected sync job
+2026-10-20T12:20:35Z,AUTH-S0078,svc-backup,login_success,192.0.2.40,backup-01,service_token,scheduled backup job
+2026-10-20T12:30:35Z,AUTH-S0079,v.user20,login_failure,203.0.113.201,vpn-gateway,password,invalid password
+2026-10-20T12:33:25Z,AUTH-S0080,v.user20,login_failure,203.0.113.201,vpn-gateway,password,invalid password
+2026-10-20T12:36:15Z,AUTH-S0081,v.user20,login_failure,203.0.113.201,vpn-gateway,password,invalid password
+2026-10-20T12:39:05Z,AUTH-S0082,v.user20,login_failure,203.0.113.201,vpn-gateway,password,invalid password
+2026-10-20T12:41:55Z,AUTH-S0083,v.user20,login_failure,203.0.113.201,vpn-gateway,password,invalid password
+2026-10-20T12:52:38Z,AUTH-S0084,v.user01,login_failure,198.51.100.110,workstation-30,password,invalid password
+2026-10-20T12:53:03Z,AUTH-S0085,v.user01,login_failure,198.51.100.110,workstation-30,password,invalid password
+2026-10-20T12:53:23Z,AUTH-S0086,adm.cole,privilege_granted,198.51.100.71,admin-console,MFA,no change ticket in event; investigate
+2026-10-20T12:53:48Z,AUTH-S0087,v.user01,login_success,198.51.100.110,workstation-30,MFA,normal office login
+2026-10-20T12:57:21Z,AUTH-S0088,unknown,login_failure,203.0.113.91,vpn-gateway,password,unknown username
+2026-10-20T12:57:30Z,AUTH-S0089,unknown,login_failure,203.0.113.91,vpn-gateway,password,unknown username
+2026-10-20T12:57:36Z,AUTH-S0090,unknown,login_failure,203.0.113.91,vpn-gateway,password,unknown username
+2026-10-20T12:57:48Z,AUTH-S0091,unknown,login_failure,203.0.113.91,vpn-gateway,password,unknown username
+2026-10-20T13:20:20Z,AUTH-S0092,svc-backup,login_success,192.0.2.40,backup-01,service_token,scheduled backup job
+2026-10-20T13:29:45Z,AUTH-S0093,adm.holt,privilege_granted,198.51.100.60,admin-console,MFA,approved change ticket CHG-2000
+2026-10-20T14:11:04Z,AUTH-S0094,v.user08,login_failure,203.0.113.200,vpn-gateway,password,invalid password
+2026-10-20T14:13:54Z,AUTH-S0095,v.user08,login_failure,203.0.113.200,vpn-gateway,password,invalid password
+2026-10-20T14:16:44Z,AUTH-S0096,v.user08,login_failure,203.0.113.200,vpn-gateway,password,invalid password
+2026-10-20T14:17:57Z,AUTH-S0097,v.user04,login_failure,198.51.100.101,vpn-gateway,password,invalid password
+2026-10-20T14:18:14Z,AUTH-S0098,svc-sync,login_success,192.0.2.55,directory-01,service_token,expected sync job
+2026-10-20T14:18:17Z,AUTH-S0099,v.user04,login_failure,198.51.100.101,vpn-gateway,password,invalid password
+2026-10-20T14:18:37Z,AUTH-S0100,v.user04,login_failure,198.51.100.101,vpn-gateway,password,invalid password
+2026-10-20T14:19:34Z,AUTH-S0101,v.user08,login_failure,203.0.113.200,vpn-gateway,password,invalid password
+2026-10-20T14:20:03Z,AUTH-S0102,svc-backup,login_success,192.0.2.40,backup-01,service_token,scheduled backup job
+2026-10-20T14:22:24Z,AUTH-S0103,v.user08,login_failure,203.0.113.200,vpn-gateway,password,invalid password
+2026-10-20T14:33:26Z,AUTH-S0104,v.user07,mfa_denied,198.51.100.120,workstation-40,push,user denied unexpected prompt
+2026-10-20T14:34:03Z,AUTH-S0105,v.user07,mfa_denied,198.51.100.120,workstation-40,push,user denied unexpected prompt
+2026-10-20T14:35:12Z,AUTH-S0106,v.user07,mfa_denied,198.51.100.120,workstation-40,push,user denied unexpected prompt
+2026-10-20T14:36:13Z,AUTH-S0107,v.user07,mfa_denied,198.51.100.120,workstation-40,push,user denied unexpected prompt
+2026-10-20T14:52:04Z,AUTH-S0108,adm.vega,privilege_granted,198.51.100.61,admin-console,MFA,approved change ticket CHG-2001
+2026-10-20T15:16:07Z,AUTH-S0109,adm.park,privilege_granted,198.51.100.72,admin-console,MFA,no change ticket in event; investigate
+2026-10-20T15:20:02Z,AUTH-S0110,svc-backup,login_success,192.0.2.40,backup-01,service_token,scheduled backup job
+2026-10-20T15:39:39Z,AUTH-S0111,k.larsen,password_reset,198.51.100.28,helpdesk-portal,email_otp,verified reset

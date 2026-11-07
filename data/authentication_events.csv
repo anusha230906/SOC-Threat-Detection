@@ -1,0 +1,21 @@
+timestamp_utc,event_id,username,event_type,source_ip,target_system,auth_method,notes
+2026-10-19T08:01:12Z,AUTH-0001,j.lee,login_success,198.51.100.21,workstation-14,MFA,normal office login
+2026-10-19T08:05:44Z,AUTH-0002,m.patel,login_success,198.51.100.22,workstation-03,MFA,normal office login
+2026-10-19T08:14:03Z,AUTH-0003,a.chen,login_failure,203.0.113.77,vpn-gateway,password,invalid password
+2026-10-19T08:14:11Z,AUTH-0004,a.chen,login_failure,203.0.113.77,vpn-gateway,password,invalid password
+2026-10-19T08:14:18Z,AUTH-0005,a.chen,login_failure,203.0.113.77,vpn-gateway,password,invalid password
+2026-10-19T08:14:27Z,AUTH-0006,a.chen,login_failure,203.0.113.77,vpn-gateway,password,invalid password
+2026-10-19T08:15:01Z,AUTH-0007,a.chen,login_success,203.0.113.77,vpn-gateway,MFA,success after repeated failures; review required
+2026-10-19T08:20:14Z,AUTH-0008,svc-backup,login_success,192.0.2.40,backup-01,service_token,scheduled backup job
+2026-10-19T08:35:29Z,AUTH-0009,t.garcia,mfa_denied,198.51.100.45,workstation-08,push,user denied unexpected prompt
+2026-10-19T08:36:02Z,AUTH-0010,t.garcia,mfa_denied,198.51.100.45,workstation-08,push,second unexpected prompt
+2026-10-19T09:02:10Z,AUTH-0011,r.khan,password_reset,198.51.100.28,helpdesk-portal,email_otp,verified reset
+2026-10-19T09:15:55Z,AUTH-0012,unknown,login_failure,203.0.113.91,vpn-gateway,password,unknown username
+2026-10-19T09:16:04Z,AUTH-0013,unknown,login_failure,203.0.113.91,vpn-gateway,password,unknown username
+2026-10-19T09:16:19Z,AUTH-0014,unknown,login_failure,203.0.113.91,vpn-gateway,password,unknown username
+2026-10-19T09:40:12Z,AUTH-0015,n.wilson,login_success,198.51.100.29,workstation-09,MFA,normal office login
+2026-10-19T10:03:41Z,AUTH-0016,m.patel,privilege_granted,198.51.100.22,admin-console,MFA,approved change ticket CHG-1042
+2026-10-19T10:06:12Z,AUTH-0017,m.patel,privilege_granted,198.51.100.22,admin-console,MFA,no change ticket in event; investigate
+2026-10-19T10:18:03Z,AUTH-0018,svc-sync,login_success,192.0.2.55,directory-01,service_token,expected sync job
+2026-10-19T10:22:16Z,AUTH-0019,d.ross,login_failure,198.51.100.36,workstation-22,password,single typo
+2026-10-19T11:51:08Z,AUTH-0020,d.ross,login_success,198.51.100.36,workstation-22,MFA,normal login after typo
