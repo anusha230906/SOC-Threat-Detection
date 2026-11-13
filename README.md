@@ -89,11 +89,6 @@ See `docs/detection_rules.md` for logic, false positives and what evidence would
 Static thresholds can be evaded; no per-user baselines; EDR correlation uses a hand-written host map; change tickets
 are only matched by text; synthetic data is small and clean. Details and improvements: `docs/limitations.md`.
 
-## AI assistance
-
-An earlier version was built with ChatGPT and then extended and reviewed with Claude (Anthropic). Everything was run and
-tested; see `docs/video_script.md` for the points to be able to explain.
-
 ## References
 
 `docs/references.md`
